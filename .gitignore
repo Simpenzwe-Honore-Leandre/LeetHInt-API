@@ -33,3 +33,6 @@ build/
 .vscode/
 ### ENV FILES ###
 .env
+
+###previous debuggging errors###
+connctionstrinexceptions
