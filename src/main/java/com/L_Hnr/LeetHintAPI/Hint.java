@@ -1,9 +1,7 @@
 package com.L_Hnr.LeetHintAPI;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -16,5 +14,5 @@ public class Hint {
     private Integer leetcodeId;
     private String questionTitle;
     private String questionLink;
-    private String Intuition;
+    private String intuition;
 }
